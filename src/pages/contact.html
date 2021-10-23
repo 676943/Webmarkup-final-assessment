@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> Home </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Find out more and book trips to your favourite holiday destinations, with tickets and prices from TUI.nl.">
+    <meta name="keywords" content="Best Trips, Trips, Travel, Adventure, Journey">
+    <meta name="author" content="Franz Herrmann">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./../public/css/style.css">
+    <link rel="icon" href="./../public/images/favicon.ico" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+
+<header>
+    <section class="header-message">
+        <section class="title-container">
+            <a href="./index.html"> <img title="Website logo" alt="Website logo" src="./../public/images/favicon.ico"></a>
+            <h1 id="title"> tui </h1>
+        </section>
+        <h2> Discovery your smile </h2>
+    </section>
+
+    <nav class="desktop-nav">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./bestdestinations.html">Best destinations</a></li>
+            <li><a href="./tickets.html">Tickets</a></li>
+            <li><a class="active" href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <nav class="mobile-nav">
+        <ul class="navbar" id="navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./bestdestinations.html">Best destinations</a></li>
+            <li><a href="./tickets.html">Tickets</a></li>
+            <li><a class="active" href="./contact.html">Contact</a></li>
+            <li>
+                <a class="navbar-close" href="#">
+                    <img title="Close menu button" alt="Close menu button" src="./../public/images/x-icon.png">
+                </a>
+            </li>
+        </ul>
+        <a class="navbar-hamburger" href="#navbar">
+            <img title="Phone menu" alt="Phone menu" src="./../public/images/hamburger-icon.svg">
+        </a>
+    </nav>
+
+</header>
+<section>
+    <h1> Contact Information </h1>
+    <section class="phone-number">
+        <img alt="Phone icon" title="Phone icon" src="./../public/images/phone-icon.svg">
+        <p>+31 (0)88 – 088 58 85</p>
+    </section>
+</section>
+<section class="contact-form-content">
+    <section class="form-container">
+        <form>
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" placeholder="Full name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value="email" placeholder="Email Address">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="What do you need help with?"></textarea>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+
+    <section class="section-aside" id="section-aside-contact">
+        <aside class="best-destinations">
+            <ol>
+                <li>
+                    <article class="aside-destination" id="cd1">
+                        <img alt="Greece" title="Greece" src="./../public/images/greece.jpg">
+                        <a href="https://www.tui.nl/blue-lagoon-resort-50956541/" target="_blank"> Greece </a>
+                        <p> The sun is shining in this southern European country.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="aside-destination" id="cd2">
+                        <img alt="Thailand" title="Thailand" src="./../public/images/thailand.jpg">
+                        <a href="https://www.tui.nl/22-daagse-rondreis-thailand-compleet-vanaf-nov-21-519679139/"
+                           target="_blank"> Thailand </a>
+                        <p> Don't miss out on Thailand! Fly from Bangkok.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="aside-destination" id="cd3">
+                        <img alt="Japan" title="Japan" src="./../public/images/japan.jpg">
+                        <a href="https://www.tui.nl/15-daagse-rondreis-het-mystieke-japan-519718120/" target="_blank">
+                            Japan </a>
+                        <p> Head to Japan and experience it's amazing cuisine.</p>
+                    </article>
+                </li>
+            </ol>
+        </aside>
+    </section>
+</section>
+
+<footer>
+    <section class="copy-right">
+        &copy; 2021 Franz Herrmann
+    </section>
+    <section class="cookie-statement">
+        <h1> Cookie statement </h1>
+    </section>
+</footer>
+
+</body>
+
+</html>
