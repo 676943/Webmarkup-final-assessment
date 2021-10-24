@@ -223,6 +223,10 @@ footer .cookie-statement {
     flex-direction: column;
 }
 
+.aside-destination a + a {
+    font-weight: bold;
+}
+
 .section-aside {
     order: 3;
     flex-shrink: 1;
